@@ -36,3 +36,32 @@ JpaRepository<表名字, 主键的类型>
 
 private ProductInfoRepository productInfoRepository;
 ![单元测试](https://github.com/Francis11h/product/blob/master/image/5.png)
+
+
+## service
+
+接口类 具体的实现逻辑都在这里
+
+![service](https://github.com/Francis11h/product/blob/master/image/7.png)
+
+接口类的实现 impl
+
+***@Autowired***   引入要用的 repository 
+![serviceImpl](https://github.com/Francis11h/product/blob/master/image/8.png)
+
+
+## Enum
+
+枚举类
+![枚举类](https://github.com/Francis11h/product/blob/master/image/9.png)
+
+
+
+
+
+
+
+
+
+
+
