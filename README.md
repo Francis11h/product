@@ -6,6 +6,7 @@
 
 
 ## controller
+![列出目标](https://github.com/Francis11h/product/blob/master/image/6.png)
 
 ## dataobject
 ***@Data***      lombok插件引入的 可以不用写 getter setter
