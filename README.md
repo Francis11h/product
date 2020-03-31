@@ -32,5 +32,6 @@ JpaRepository<表名字, 主键的类型>
 ***@SpringBootTest***                   
 
 ***@Autowired***   引入要用的 repository
+
 private ProductInfoRepository productInfoRepository;
 ![单元测试](https://github.com/Francis11h/product/blob/master/image/5.png)
