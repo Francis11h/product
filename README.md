@@ -23,6 +23,12 @@ repository 接口 继承 JPA
 JpaRepository<表名字, 主键的类型>
 
 ***public interface ProductInfoRepository extends JpaRepository<ProductInfo, String>***
+![-](https://github.com/Francis11h/product/blob/master/image/4.png)
 
+##单元测试
+***@RunWith(SpringRunner.class)***      run测试的规定
+***@SpringBootTest***                   
 
-
+***@Autowired***   引入要用的 repository
+private ProductInfoRepository productInfoRepository;
+![单元测试](https://github.com/Francis11h/product/blob/master/image/5.png)
