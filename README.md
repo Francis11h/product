@@ -78,6 +78,26 @@ ProductInfoVO 是 ProductVO中 不含category的部分的数据封装 相当于 
 
 
 
+## 重新去完善 controller
+
+***@RestController***  代表是 controller
+***@RequestMapping***   最前面设置一个 url
+
+***@Autowired***
+***private ProductService productService;***
+***@Autowired***  每引入一个 要写一次 autowired
+***private CategoryService categoryService;***
+
+把两个要用的service 注入
+
+***@GetMapping("/list")***   get方法的url
+![controller 1](https://github.com/Francis11h/product/blob/master/image/14.png)
+
+**list.stream().map(ProductInfo::getCategoryType).collect(Collectors.toList())**
+
+![controller 2](https://github.com/Francis11h/product/blob/master/image/15.png)
+
+![拼装数据](https://github.com/Francis11h/product/blob/master/image/16.png)
 
 
 
