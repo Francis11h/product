@@ -49,6 +49,9 @@ private ProductInfoRepository productInfoRepository;
 ***@Autowired***   引入要用的 repository 
 ![serviceImpl](https://github.com/Francis11h/product/blob/master/image/8.png)
 
+写完之后要测试 
+![serviceTest](https://github.com/Francis11h/product/blob/master/image/10.png)
+
 
 ## Enum
 
