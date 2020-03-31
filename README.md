@@ -26,6 +26,7 @@ JpaRepository<表名字, 主键的类型>
 ![-](https://github.com/Francis11h/product/blob/master/image/4.png)
 
 ##单元测试
+
 ***@RunWith(SpringRunner.class)***      run测试的规定
 ***@SpringBootTest***                   
 
