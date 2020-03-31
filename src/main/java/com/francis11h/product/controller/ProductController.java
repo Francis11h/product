@@ -8,6 +8,7 @@ import com.francis11h.product.dataobject.ProductCategory;
 import com.francis11h.product.dataobject.ProductInfo;
 import com.francis11h.product.service.CategoryService;
 import com.francis11h.product.service.ProductService;
+import com.francis11h.product.utils.ResultVOUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -69,11 +70,11 @@ public class ProductController {
             productVOList.add(productVO);
         }
 
-        ResultVO resultVO = new ResultVO();
-        resultVO.setData(productVOList);
-        resultVO.setCode(0);
-        resultVO.setMessage("success");
-        return resultVO;
+//        ResultVO resultVO = new ResultVO();
+//        resultVO.setData(productVOList);
+//        resultVO.setCode(0);
+//        resultVO.setMessage("success");
+        return ResultVOUtil.success(productVOList);
     }
 
 }

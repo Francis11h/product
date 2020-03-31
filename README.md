@@ -101,4 +101,6 @@ ProductInfoVO 是 ProductVO中 不含category的部分的数据封装 相当于 
 
 
 
-
+狗仔 ResultVO时 重新建一个utils类 来辅助 
+传Object 对象进去
+![拼装数据](https://github.com/Francis11h/product/blob/master/image/17.png)
