@@ -1,5 +1,14 @@
 package com.francis11h.product.controller;
 
+
+import com.francis11h.product.VO.ProductVO;
+import com.francis11h.product.VO.ResultVO;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/product")
 public class ProductController {
 
     /**
@@ -8,7 +17,8 @@ public class ProductController {
      * 3. 查询类目
      * 4. 构造数据
      */
-    public void list() {
+    @GetMapping("/list")
+    public ResultVO<ProductVO> list() {
 
     }
 

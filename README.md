@@ -61,6 +61,20 @@ private ProductInfoRepository productInfoRepository;
 
 
 
+## View Object
+
+这个package 我们 封装最后接口要用的数据 
+http  返回的 最外层对象: 规定的是 code + msg + data
+其中 data 用范型
+![http 返回的 最外层对象](https://github.com/Francis11h/product/blob/master/image/11.png)
+
+其中的 data 再用一个 VO类表示 ProductVO 
+但是该类 还包含了 类目Category的信息 所以我们还要 再用一个VO
+![](https://github.com/Francis11h/product/blob/master/image/12.png)
+
+ProductInfoVO 是 ProductVO中 不含category的部分的数据封装 相当于 第三层
+![](https://github.com/Francis11h/product/blob/master/image/13.png)
+
 
 
 
