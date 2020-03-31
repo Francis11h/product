@@ -17,3 +17,12 @@
     
 ## repository
 
+
+repository 接口 继承 JPA
+
+JpaRepository<表名字, 主键的类型>
+
+***public interface ProductInfoRepository extends JpaRepository<ProductInfo, String>***
+
+
+
